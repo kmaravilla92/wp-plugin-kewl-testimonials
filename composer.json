@@ -1,0 +1,21 @@
+{
+    "name": "kewl/reviews",
+    "autoload": {
+        "psr-4": {
+            "Kewl\\Reviews\\": "src/"
+        },
+        "files": [
+            "src/helper-functions.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Kewl Dev",
+            "email": "kewldev@gmail.com"
+        }
+    ],
+    "require": {
+        "htmlburger/carbon-fields": "^3.6",
+        "htmlburger/carbon-fields-plugin": "*"
+    }
+}
